@@ -1,7 +1,4 @@
 
-//const dataAtual = new Date().toLocaleDateString('pt-BR')
-
-
 // <reference types="cypress"/>
 describe('Vehicle Insurance Application', () => {
     it(' Automobile Insurance ', () => {

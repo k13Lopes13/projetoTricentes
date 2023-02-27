@@ -17,7 +17,7 @@ Cypress.Commands.add('performance', () => {
     cy.get('#opendateofmanufacturecalender > .fa').should('be.visible').type('01/01/2023')
  });
  Cypress.Commands.add('numberofseats', () => {
-    cy.get('#numberofseats').select('5')
+    cy.get('#numberofseats').select('10')
  });
  Cypress.Commands.add('fuel', () => {
     cy.get('#fuel').select('Gas');
